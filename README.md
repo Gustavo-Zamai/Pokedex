@@ -58,4 +58,4 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-Feito com ♥ por Gustavo Zamai ![Alt text](image.png)
+Feito com ♥ por Gustavo Zamai ![Pokebola](./assets/images/image.png)
