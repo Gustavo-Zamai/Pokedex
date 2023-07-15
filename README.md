@@ -29,6 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
 - JavaScript
+- API
 - Git e Github
 - Dribbble
 
@@ -49,7 +50,8 @@ Você pode visualizar o layout, que serviu de inspiração para esse projeto atr
 
 ## 📑 Aprendizado
 
-Durante esse projeto, utilizei conceitos de Mobile First, usando ao invés de pixels, rem, e pensando na responsividade da aplicação, utilizei e entendi melhor o conceitos das Medias Queries para a responsividade, fora isso utilizei o Javascript para deixar o acesso as informações dos pokémons dinâmicas. 
+Durante esse projeto, utilizei conceitos de Mobile First, usando ao invés de pixels, rem, e pensando na responsividade da aplicação, utilizei e entendi melhor o conceitos das Medias Queries para a responsividade. </br>
+Fora isso utilizei o Javascript para deixar o acesso as informações dos pokémons dinâmicas, consumindo a API do PokeAPI. 
 
 ---
 ## 📝 Licença
