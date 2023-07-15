@@ -49,7 +49,7 @@ Você pode visualizar o layout, que serviu de inspiração para esse projeto atr
 
 ## 📑 Aprendizado
 
-Durante esse projeto, utilizei conceitos de Mobile First, usando ao invés de pixels, rem, e pensando na responsividade da aplicação, fora isso utilizei o Javascript para deixar o acesso as informações dos pokémons dinâmicas. 
+Durante esse projeto, utilizei conceitos de Mobile First, usando ao invés de pixels, rem, e pensando na responsividade da aplicação, utilizei e entendi melhor o conceitos das Medias Queries para a responsividade, fora isso utilizei o Javascript para deixar o acesso as informações dos pokémons dinâmicas. 
 
 ---
 ## 📝 Licença
