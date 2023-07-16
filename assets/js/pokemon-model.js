@@ -5,5 +5,4 @@ class Pokemon {
     types = [];
     photo;
     //evolutionFamily;
-
 }
