@@ -5,7 +5,7 @@
 const pokemonList = document.getElementById("pokemonList");
 const loadMoreBtn = document.getElementById("loadMore");
 
-const maxNumRecords = 151;
+const maxNumRecords = 251;
 const limit = 12;
 let offset = 0;
 
