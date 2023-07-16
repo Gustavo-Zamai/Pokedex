@@ -4,5 +4,12 @@ class Pokemon {
     type;
     types = [];
     photo;
-    //evolutionFamily;
+}
+
+class PokemonDetail extends Pokemon {
+    evolutionFamily;
+    baseStatus;
+    healthStatus;
+    height;
+    weight;
 }
