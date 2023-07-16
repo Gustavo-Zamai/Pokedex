@@ -51,7 +51,8 @@ Você pode visualizar o layout, que serviu de inspiração para esse projeto atr
 ## 📑 Aprendizado
 
 Durante esse projeto, utilizei conceitos de Mobile First, usando ao invés de pixels, rem, e pensando na responsividade da aplicação, utilizei e entendi melhor o conceitos das Medias Queries para a responsividade. </br>
-Fora isso utilizei o Javascript para deixar o acesso as informações dos pokémons dinâmicas, consumindo a API do PokeAPI. 
+Fora isso utilizei o Javascript para deixar o acesso as informações dos pokémons dinâmicas, consumindo a API do PokeAPI.</br>
+Utilizando Javascript pratiquei e reforcei conceitos de Promises, functions e manipular arquivos em JSON, mediante Requests e Responses. 
 
 ---
 ## 📝 Licença
