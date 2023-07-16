@@ -1,7 +1,7 @@
 <h1 align="center">Pokedex</h1>
 
 <p align="center">
-Pokedex para se informar sobre os pokémons, disponíveis na PokeAPI, contendo status, tipo e evoluções. <br/>
+Pokedex para se informar sobre os pokémons, da primeira e segunda geração, contendo status, tipo e suas evoluções. <br/>
 </p>
 
 <p align="center">
