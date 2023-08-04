@@ -22,6 +22,10 @@ Pokedex para se informar sobre os pokémons, da primeira e segunda geração, co
   <img alt="Projeto Pokedex" src=".github/preview.png" width="100%">
 </p>
 
+<p align="center">
+  <img alt="Projeto Pokedex" src=".github/card-preview.png" width="100%">
+</p>
+
 ---
 ## 🚀 Tecnologias
 

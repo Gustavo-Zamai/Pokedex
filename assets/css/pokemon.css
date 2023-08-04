@@ -2,3 +2,140 @@
     font-family: 'VT323', monospace;
     box-sizing: border-box;
 }
+
+.card {
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.back {
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #fff4;
+    background-image: url('../images/back.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.back:hover {
+    background-color: #fffc;
+    cursor: pointer;
+}
+
+.back:hover {
+    color: #ccc;
+}
+
+
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px 0 20px;
+}
+
+.card-header h2 {
+    font-size: 46px;
+}
+
+.card-details {
+    margin: 0 auto;
+}
+
+.card-body {
+    background: url('../images/background.png') no-repeat;
+    background-size: contain;
+    background-size: 250px;
+    background-position: 50% 15%;
+}
+
+.card-img {
+    max-width: 250px;
+    height: 250px;
+}
+
+.card-types {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 10px auto 0 auto;
+}
+
+.card-info {
+    background-color: #6fa8dc;
+    border-radius: 10px;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 20px;
+    gap: 10px;
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    font-weight: bold;
+    border: 1px solid #000000;
+}
+
+.stat p {
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.hp {
+    color: #8fce00;
+}
+
+.attack {
+    color: #c50000;
+}
+
+.defense {
+    color: #783f04;
+}
+
+.special-attack {
+    color: #cc0000;
+}
+
+.special-defense {
+    color: #5b5b5b;
+}
+
+.speed {
+    color: #739BD0;
+}
+
+@media screen and (max-width: 475px) {
+    .card-header {
+        flex-direction: column;
+    }
+
+    .stats {
+        display: block;
+    }
+
+    .stat {
+        margin: 5px 0;
+    }
+
+    .card {
+        width: 280px;
+    }
+}

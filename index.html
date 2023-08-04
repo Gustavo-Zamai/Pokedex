@@ -1,48 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pokedex</title>
-    <!--Normalize CSS-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <!--Font-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&family=VT323&display=swap"
-      rel="stylesheet"
-    />
-    <!--CSS-->
-    <link rel="stylesheet" href="./assets/css/global.css" />
-    <link rel="stylesheet" href="./assets/css/pokedex.css">
-    <!--Favicon-->
-    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon" />
-  </head>
-  <body>
-    <section class="content">
-      <h1>Pokedex</h1>
-      <ol id="pokemonList" class="pokemons">
-          <!--Pokemon List Here-->
-      </ol>
-      <div class="pagination">
-        <button id="loadMore" type="button">
-          Load More
-        </button>
-      </div>
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-icon" />
+    <title>Pokedex</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/pokedex.css">
+    <link rel="stylesheet" href="/assets/css/pokemon.css">
+</head>
+
+<body>
+    <section>
+        <div class="section-header">
+            <img class="logo" src="./assets/images/favicon.png" alt="logo">
+            <h1>Pokedex</h1>
+        </div>
+
+        <ol id="pokemonList" class="pokemons"></ol>
+
+        <button id="prevBtn" class="button" type="button">Prev</button>
+        <button id="nextBtn" class="button" type="button">Next</button>
     </section>
 
-    <!--Scripts-->
-    <script src="./assets/js/pokemon-model.js"></script>
-    <script src="./assets/js/poke-api.js"></script>
-    <script src="./assets/js/pokemon-detail.js"></script>
-    <script src="./assets/js/main.js"></script>
-  </body>
+    <script src="/assets/js/pokemon-model.js"></script>
+    <script src="/assets/js/poke-api.js"></script>
+    <script src="/assets/js/main.js"></script>
+</body>
+
 </html>

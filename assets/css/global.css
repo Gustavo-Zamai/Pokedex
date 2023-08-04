@@ -1,6 +1,4 @@
 * {
-    font-family: 'Roboto', sans-serif;
-    /*font-family: 'VT323', monospace;*/
     box-sizing: border-box;
 }
 
@@ -8,15 +6,34 @@ body {
     background-color: #f6f8fc ;
 }
 
-.content {
-    height: 100vh;
-    width: 100vw;
+section {
+    margin: 10px auto;
+    border-radius: 1rem;
+    background-color: #e06666;
     padding: 1rem;
-    background-color: #fff;  
+    text-align: center;
+    max-width: 1000px;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.logo {
+    width: 32px;
+    height: 32px;
 }
 
 @media screen and (min-width: 992px) {
-    .content {
+    section {
         max-width: 992px;
         width: auto;
         margin: 1rem auto;
