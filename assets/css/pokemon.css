@@ -25,14 +25,9 @@
 }
 
 .back:hover {
-    background-color: #fffc;
+    background-color: #fff;
     cursor: pointer;
 }
-
-.back:hover {
-    color: #ccc;
-}
-
 
 .card-header {
     display: flex;
@@ -69,7 +64,7 @@
 }
 
 .card-info {
-    background-color: #6fa8dc;
+    background-color: #2c3e50;
     border-radius: 10px;
     padding: 20px 0;
     margin: 0 auto;
@@ -88,7 +83,7 @@
     justify-content: space-between;
     padding: 5px 15px;
     border-radius: 10px;
-    background-color: #ffffff;
+    background-color: #2ECC71;
     font-weight: bold;
     border: 1px solid #000000;
 }
@@ -99,27 +94,27 @@
 }
 
 .hp {
-    color: #8fce00;
+    color: #000;
 }
 
 .attack {
-    color: #c50000;
+    color: #000;
 }
 
 .defense {
-    color: #783f04;
+    color: #000;
 }
 
 .special-attack {
-    color: #cc0000;
+    color: #000;
 }
 
 .special-defense {
-    color: #5b5b5b;
+    color: #000;
 }
 
 .speed {
-    color: #739BD0;
+    color: #000;
 }
 
 @media screen and (max-width: 475px) {
