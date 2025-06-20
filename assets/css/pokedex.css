@@ -1,15 +1,15 @@
+#pokemonList:has(> .card) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .pokemons {
   display: grid;
   grid-template-columns: 1fr;
   list-style: none;
   padding: 0;
   margin: 0;
-
-  /*display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 0px;
-  margin: 0px;*/
 }
 
 
