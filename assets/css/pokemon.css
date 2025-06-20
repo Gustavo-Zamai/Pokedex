@@ -75,17 +75,13 @@
 }
 
 .card-info {
-    background-color: #2c3e50;
     border-radius: 10px;
-    padding: 20px 0;
+    padding: 10px 0;
     margin: 0 auto;
-}
-
-.stats {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 0 20px;
-    gap: 10px;
+    transition: all 0.3s ease;
+    border-image: linear-gradient(45deg, currentColor 0%, transparent 100%) 1;
+    border: 2px solid currentColor;
+    filter: brightness(1.2);
 }
 
 .stat {
@@ -94,9 +90,92 @@
     justify-content: space-between;
     padding: 5px 15px;
     border-radius: 10px;
-    background-color: #2ECC71;
     font-weight: bold;
-    border: 1px solid #000000;
+    margin: 5px 0;
+    border: 1px solid;
+    border-image: linear-gradient(to right, currentColor 0%, transparent 100%) 1;
+}
+
+/* Fogo + Veneno (Ex: Salazzle) */
+.card-info.fire.poison, .stat.fire.poison {
+    background: linear-gradient(45deg, #fd7d24 0%, #b97fc9 100%);
+    color: white;
+    
+}
+
+/* Água + Voador (Ex: Gyarados) */
+.card-info.water.flying, .stat.water.flying {
+    background: linear-gradient(45deg, #6890f0 0%, #a890f0 100%);
+    color: white;
+}
+
+/* Planta + Veneno (Ex: Bulbasaur) */
+.card-info.grass.poison, .stat.grass.poison {
+    background: linear-gradient(45deg, #9bcc50 0%, #b97fc9 100%);
+    color: #2a4480;
+}
+
+/* Elétrico + Aço (Ex: Magneton) */
+.card-info.electric.steel, .stat.electric.steel {
+    background: linear-gradient(45deg, #f8d030 0%, #b8b8d0 100%);
+    color: #2a4480;
+}
+
+/* Psíquico + Fada (Ex: Gardevoir) */
+.card-info.psychic.fairy, .stat.psychic.fairy {
+    background: linear-gradient(45deg, #f366b9 0%, #ee99ac 100%);
+    color: white;
+}
+
+/* Lutador + Sombrio (Ex: Pangoro) */
+.card-info.fighting.dark, .stat.fighting.dark {
+    background: linear-gradient(45deg, #c03028 0%, #705848 100%);
+    color: #f8d030;
+}
+
+/* Pedra + Terra (Ex: Rhyperior) */
+.card-info.rock.ground, .stat.rock.ground {
+    background: linear-gradient(45deg, #b8a038 0%, #e0c068 100%);
+    color: #5a3818;
+}
+
+/* Gelo + Psíquico (Ex: Mr. Rime) */
+.card-info.ice.psychic, .stat.ice.psychic {
+    background: linear-gradient(45deg, #98d8d8 0%, #f366b9 100%);
+    color: white;
+}
+
+/* Inseto + Voador (Ex: Butterfree) */
+.card-info.bug.flying, .stat.bug.flying {
+    background: linear-gradient(45deg, #a8b820 0%, #a890f0 100%);
+    color: white;
+}
+
+/* Dragão + Voador (Ex: Dragonite) */
+.card-info.dragon.flying, .stat.dragon.flying {
+    background: linear-gradient(45deg, #7038f8 0%, #a890f0 100%);
+    color: #f8d030;
+}
+
+/* Fantasma + Sombrio (Ex: Sableye) - Efeito misterioso */
+.card-info.ghost.dark, .stat.ghost.dark {
+    background: linear-gradient(45deg, #705898 0%, #705848 100%);
+    color: #d8c0d8;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+/* Aço + Dragão (Ex: Duraludon) - Metálico futurista */
+.card-info.steel.dragon, .stat.steel.dragon {
+    background: linear-gradient(45deg, #b8b8d0 0%, #7038f8 100%);
+    color: white;
+    box-shadow: inset 0 0 10px rgba(255,255,255,0.3);
+}
+
+/* Fogo + Dragão (Ex: Charizard) - Gradiente épico */
+.card-info.fire.dragon, .stat.fire.dragon {
+    background: linear-gradient(45deg, #fd7d24 0%, #7038f8 100%);
+    color: #f8d030;
+    font-weight: bold;
 }
 
 .stat p {
@@ -104,29 +183,7 @@
     margin-right: 10px;
 }
 
-.hp {
-    color: #000;
-}
 
-.attack {
-    color: #000;
-}
-
-.defense {
-    color: #000;
-}
-
-.special-attack {
-    color: #000;
-}
-
-.special-defense {
-    color: #000;
-}
-
-.speed {
-    color: #000;
-}
 
 @media screen and (max-width: 475px) {
     .card-header {
