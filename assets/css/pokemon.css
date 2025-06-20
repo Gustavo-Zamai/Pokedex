@@ -11,15 +11,6 @@
     /* adicione sombra se desejar */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
-.card {
-    max-width: 500px;
-    width: 100%;
-    margin: 0; /* remova o margin: 0 auto pois o flex já centraliza */
-    border-radius: 20px;
-    /* adicione sombra se desejar */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
 .back {
     border: none;
     font-weight: bold;
