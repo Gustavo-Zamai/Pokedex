@@ -1,68 +1,86 @@
-<h1 align="center">Pokedex</h1>
+# 🎮 Pokédex App
 
-<p align="center">
-Pokedex para se informar sobre os pokémons, da primeira e segunda geração, contendo status, tipo e suas evoluções. <br/>
-</p>
+A simple and responsive web application that displays the first 151 Pokémon from the original generation. It uses the [PokéAPI](https://pokeapi.co/) to fetch Pokémon data including their name and official artwork.
 
-<p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-aprendizado">Aprendizado</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-licença">Licença</a>
-</p>
+## 🔗 Live Demo
 
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
-</p>
+Check out the live project here:  
+👉 [GitHub Pages Link](https://Gustavo-Zamai.github.io/poke-api-client)
 
-<br>
-
-<p align="center">
-  <img alt="Projeto Pokedex" src=".github/preview.png" width="100%">
-</p>
-
-<p align="center">
-  <img alt="Projeto Pokedex" src=".github/card-preview.png" width="100%">
-</p>
 
 ---
-## 🚀 Tecnologias
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+## 🚀 Technologies Used
 
-- HTML e CSS
+- HTML
+- CSS
 - JavaScript
-- API
-- Git e Github
-- Dribbble
-
----
-## 💻 Projeto
-
-O Projeto da Pokedex é um aplicativo onde você consegue encontrar informações sobre seus pokémons favoritos.
-
-[Acesse o projeto em andamento, online](https://Gustavo-Zamai.github.io/Pokedex)
-
-
----
-## 🔖 Layout
-
-Você pode visualizar o layout, que serviu de inspiração para esse projeto através [Desse Link](https://dribbble.com/shots/6540871-Pokedex-App). É necessário ter conta no [Dribbble](https://dribbble.com/) para acessá-lo.
+- [API](https://pokeapi.co/)
 
 ---
 
-## 📑 Aprendizado
+## 📁 Project Structure
 
-Durante esse projeto, utilizei conceitos de Mobile First, usando ao invés de pixels, rem, e pensando na responsividade da aplicação, utilizei e entendi melhor o conceitos das Medias Queries para a responsividade. </br>
-Fora isso utilizei o Javascript para deixar o acesso as informações dos pokémons dinâmicas, consumindo a API do PokeAPI.</br>
-Utilizando Javascript pratiquei e reforcei conceitos de Promises, functions e manipular arquivos em JSON, mediante Requests e Responses. 
+```bash
+poke-api-client/
+├── index.html
+├── 404.html
+├── assets/
+│  ├── css/
+│   ├── global.css
+│   ├── pokedex.css
+│   └── pokemon.css
+│  ├── images/
+│   ├── back.svg
+│   ├── background.png
+│   ├── favicon.png
+│   └── image.png
+│  ├── js/
+│   ├── main.js
+│   ├── poke-api.js
+│   └── pokemon-model.js
+└── README.md
+```
 
----
-## 📝 Licença
+## ⚙️ How to Run Locally
+#### 1. Clone the repository:
 
-Esse projeto está sob a licença MIT.
+```bash
+git clone https://github.com/Gustavo-Zamai/poke-api-client.git
+```
+#### 2. Navigate to the project folder:
 
----
+```bash
+cd poke-api-client
+```
+#### 3. Open index.html in your browser:
 
-Feito com ♥ por Gustavo Zamai ![Pokebola](./assets/images/image.png)
+```bash
+start index.html      # On Windows
+# or
+open index.html       # On macOS
+# or
+xdg-open index.html   # On Linux
+# No installation required — it's a fully static front-end game!
+```
+
+
+## 🧾 Features
+Pagination through Pokémon list (limited to Gen 1 - 151).
+
+Fetches and displays Pokémon names and official images.
+
+Clean and responsive layout.
+
+
+## 📌 API Reference
+PokéAPI
+
+## 📄 License
+This project is licensed under the MIT License.
+
+## 🙋‍♂️ Author
+#### Gustavo Zamai
+
+[LinkedIn](https://www.linkedin.com/in/gustavo-sim%C3%A3o-zamai-664a5521a/) • 
+[GitHub](https://github.com/Gustavo-Zamai)
