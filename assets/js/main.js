@@ -79,6 +79,12 @@ function loadPokemonsItens(offset, limit) {
 }
 
 function getInfoPokemon(id, name, types) {
+  pokeApi.getInfoPokemon(id)
+    .then((pokemonData) => {
+        const stats = pokemonData.stats.map(stat => ({
+            name: stat.stat.name,
+            stat: stat.base_stat
+        }))});
   const newTypes = types.split(",");
   nextPageBtn.classList.add("hidden");
   prevPageBtn.classList.add("hidden");
