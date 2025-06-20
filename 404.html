@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Redirecionando...</title>
+    <script>
+        // Redireciona para index.html mantendo a rota original
+        const path = window.location.pathname + window.location.search;
+        sessionStorage.setItem('redirect', path);
+        window.location.replace('/' + (window.location.host.includes('github.io') ? 'seu-repositorio' : '') + '/index.html');
+    </script>
+</head>
+<body>
+    <!-- Pode ficar vazio ou adicionar mensagem opcional -->
+    <noscript>
+        <h1>Redirecionamento requer JavaScript</h1>
+        <p><a href="index.html">Clique aqui para voltar</a></p>
+    </noscript>
+</body>
+</html>
