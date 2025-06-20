@@ -2,6 +2,15 @@
 
 A simple and responsive web application that displays the first 151 Pokémon from the original generation. It uses the [PokéAPI](https://pokeapi.co/) to fetch Pokémon data including their name and official artwork.
 
+<p align="center">
+  <img alt="PokeAPI Client initial screen" src=".github/preview.png" width="100%">
+</p>
+<br>
+<p align="center">
+  <img alt="PokeAPI card information screen" src=".github/card-preview.png" width="100%">
+</p>
+
+
 ## 🔗 Live Demo
 
 Check out the live project here:  
